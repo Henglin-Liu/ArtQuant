@@ -1,0 +1,34 @@
+# source file related
+*__pycache__*
+*.pyc
+*.o
+*.so
+*.egg
+*.egg-info
+
+# training related
+*log*
+*.log
+*.pth
+*.pt
+
+# result related
+*answer*
+*ckpt*
+*.json
+*.jsonl
+res_*
+
+# mac hidden
+*.DS_Store*
+
+img/
+checkpoints/
+add_new_word/
+ModelZoo/
+wandb/
+dataset/
+
+stage1_*
+stage2_*
+results/
