@@ -1,8 +1,11 @@
 <div align="center">
   <h1>Bridging Cognitive Gap: Hierarchical Description Learning for Artistic Image Aesthetics Assessment</h1> 
-[![Datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-yellow)](https://huggingface.co/datasets/Liuuuu123/RAD)
-[![Models](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue)](https://huggingface.co/Liuuuu123/ArtQuant/edit/main/README.md)
-
+<p>
+    <a href="https://arxiv.org/abs/2512.23413" target="_blank"><img src="https://img.shields.io/badge/📖-Paper-b31b1b" alt="Paper"></a>
+    <a href="https://github.com/Henglin-Liu/ArtQuant" target="_blank"><img src="https://img.shields.io/badge/💻-Code-green" alt="Code"></a>
+    <a href="https://huggingface.co/Liuuuu123/ArtQuant/" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue" alt="Model"></a>
+    <a href="https://huggingface.co/datasets/Liuuuu123/RAD" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-yellow" alt="Dataset"></a>
+</p>
 
 <h2>Motivation</h2> 
 
