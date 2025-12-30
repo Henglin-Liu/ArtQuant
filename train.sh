@@ -3,8 +3,8 @@
 # Set dataset and paths
 dataset=apdd # Dataset name
 image_folder="dataset/APDD/images" # Path to the image folder
-data_path1="dataset/score.json" # Path to the score dataset
-data_path2="dataset/descriptions_level_3.json" # Path to the descriptions dataset
+data_path1="dataset/APDD/apdd_score.json" # Path to the score dataset
+data_path2="dataset/APDD/apdd_description.json" # Path to the descriptions dataset
 
 # Set experiment name and model load path
 exp_name="deqa_lora_prompt_${dataset}"

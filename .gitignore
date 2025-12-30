@@ -22,13 +22,6 @@ res_*
 # mac hidden
 *.DS_Store*
 
-img/
-checkpoints/
-add_new_word/
 ModelZoo/
-wandb/
+checkpoints/
 dataset/
-
-stage1_*
-stage2_*
-results/

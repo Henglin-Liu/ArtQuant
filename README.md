@@ -1,5 +1,7 @@
 <div align="center">
   <h1>Bridging Cognitive Gap: Hierarchical Description Learning for Artistic Image Aesthetics Assessment</h1> 
+[![Datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-yellow)](https://huggingface.co/datasets/Liuuuu123/RAD)
+[![Models](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue)](https://huggingface.co/Liuuuu123/ArtQuant/edit/main/README.md)
 
 
 <h2>Motivation</h2> 
@@ -14,8 +16,6 @@
       <img style="width: 100%" src="fig/train_pipeline.png">
 </div>
 </div>
-
-
 
 
 ## 🔧 Installation
@@ -36,36 +36,9 @@ pip install flash_attn --no-build-isolation
 
 ## Training, Inference & Evaluation
 
-### 🌈 Datasets
 
-**Data Download**  
-Source images are available in the [APDDv2 GitHub repository](https://github.com/BestiVictory/APDDv2). 
-
-
-**Dataset Contents**  
-The dataset includes the following files: 
-
-- **Description Files**  
-  - `descriptions_level_1.json`: Contains perception-level descriptions only.  
-  - `descriptions_level_2.json`: Includes perception + cognition descriptions.  
-  - `descriptions_level_3.json`: Provides full descriptions (perception + cognition + emotion).  
-
-- **Scoring Data**  
-  - `score.json`: Contains pre-processed score distributions. 
-
-Arrange the folders as follows:
-
-```
-|-- ArtQuant
-  |-- dataset
-    |-- APDD
-      |-- images
-      |-- meta
-        |-- descriptions_level_*.json
-        |-- score.json
-```
 ### 💪 Preprocess
-The APDD dataset has been processed [here](./dataset/APDD/score.json). If you use the Score-Based Distribution Estimation algorithm (§3.2) for your dataset, you can use the [example script](preprocess/preprocess.ipynb).
+The APDD dataset has been processed [APDD/apdd_score.json](https://huggingface.co/datasets/Liuuuu123/RAD). If you use the Score-Based Distribution Estimation algorithm (§3.2) for your dataset, you can use the [example script](preprocess/preprocess.ipynb).
 
 ### 🔥 Training
 
